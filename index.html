@@ -1,63 +1,483 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="Steven Lund" content="Landing page for Steven Lund's professional profile.">
-     <title>Steven Lund</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <div class="card1">
-    <h1>Steven Lund</h1>
-    <h2>Freelance Web Developer 💻</h2>
-    <img src="images/steven_lund_profile_pic.jpg" class="img-circle" alt="Steven Lund Profile Pic" width="400px">
-      </div>
-      <div class="card2">
-    <p>I am a former mechanical engineer now pursuing work as a freelance web developer.
-    I have a passion for music and for the outdoors (hiking, skiing)</p>
-    <a href="https://www.imdb.com/name/nm4328352" target="_blank">
-    Click here for more
-    </a>
-      </div>
-      <div class="card3">
-    <h2>Contact</h2>
-<ul class="list-inline">
-  <li>
-    <a href="mailto:steve.a.lund@gmail.com"  target="_blank">
-      <i class="fas fa-envelope"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/StevenLund"  target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://www.linkedin.com/in/steven-lund-948373a5" target="_blank">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://www.facebook.com/shamboodles" target="_blank">
-      <i class="fab fa-facebook-f"></i>
-        </a>
-  </li>
-  <li>
-    <a href="https://www.instagram.com/shamboodles/?hl=en" target="_blank">
-      <i class="fab fa-instagram"></i>
-    </a>
-  </li>
-</ul>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>Steven Lund</title>
+
+<!-- <BASE href="https://chongr.github.io">
+-->
+<meta name="description" content="Insert Your Site Description" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<!-- Main Style -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="css/supersized.css" rel="stylesheet">
+<link href="css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="css/supersized.css" rel="stylesheet">
+<link href="css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+  <!-- This section is for Splash Screen -->
+  <div class="ole">
+    <section id="jSplash">
+     <div id="circle"></div>
+   </section>
+ </div>
+ <!-- End of Splash Screen -->
+
+ <!-- Homepage Slider -->
+ <div id="home-slider">
+  <div class="overlay"></div>
+
+  <div class="slider-text">
+   <div id="slidecaption"></div>
+ </div>
+
+ <div class="control-nav">
+  <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+  <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+  <ul id="slide-list"></ul>
+
+  <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
 </div>
 </div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+  <div class="sticky-nav">
+   <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+   <div id="logo">
+     <a id="goUp" href="#home-slider" title="Steven Lund">Steven Lund</a>
+   </div>
+
+   <nav id="menu">
+     <ul id="menu-nav">
+       <li class="current"><a href="#home-slider">Home</a></li>
+       <li><a href="#work">My Projects</a></li>
+       <li><a href="#about">About Me</a></li>
+       <!-- <li><a href="#contact">Contact</a></li> -->
+       <!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
+     </ul>
+   </nav>
+
+ </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+   <!-- Title Page -->
+   <div class="row">
+    <div class="span12">
+      <div class="title-page">
+        <h2 class="title">My Projects</h2>
+        <h3 class="title-description">Check Out My Projects on <a href="https://github.com/stevenlund/">Github</a>.</h3>
+      </div>
+    </div>
+  </div>
+  <!-- End Title Page -->
+
+  <!-- Portfolio Projects -->
+  <div class="row">
+   <div class="span3">
+     <!-- Filter -->
+     <nav id="options" class="work-nav">
+      <ul id="filters" class="option-set" data-option-key="filter">
+       <li class="type-work">Type of Work</li>
+       <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+       <li><a href="#filter" data-option-value=".web">Web</a></li>
+       <li><a href="#filter" data-option-value=".engineering">Engineering</a></li>
+       <li><a href="#filter" data-option-value=".programming">Programming</a></li>
+     </ul>
+   </nav>
+   <!-- End Filter -->
+ </div>
+
+ <div class="span9">
+   <div class="row">
+     <section id="projects">
+       <ul id="thumbs">
+
+         <!-- Item Project and Filter Name -->
+         <li class="item-thumbs span3 web">
+           <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+           <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="GoFlamingo" href="img/work/goflamingo.png">
+             <span class="overlay-img"></span>
+             <span class="overlay-img-thumb font-icon-plus"></span>
+           </a>
+           <!-- Thumb Image and Description -->
+           <img src="img/work/goflamingo.png" alt="A website to share travel experiences with your friends and get inspired for your next journey. Built with Ruby on Rails and JavaScript with Google Maps API integration." data-link="https://www.goflamingo.io" data-link-type='Website'>
+         </li>
+         <!-- End Item Project -->
+
+         <!-- Item Project and Filter Name -->
+         <li class="item-thumbs span3 web">
+          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FromCouch2Coach" href="img/work/from-couch-2-coach.png">
+            <span class="overlay-img"></span>
+            <span class="overlay-img-thumb font-icon-plus"></span>
+          </a>
+          <!-- Thumb Image and Description -->
+          <img src="img/work/from-couch-2-coach.png" alt="A website for connecting users with personal coaches in their area and managing their appointment scheduling. Built with Ruby on Rails." data-link="https://from-couch-2-coach.herokuapp.com/" data-link-type='Website'>
+        </li>
+        <!-- End Item Project -->
+
+        <!-- Item Project and Filter Name -->
+        <li class="item-thumbs span3 web">
+         <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wikipedia Philosophy Path" href="img/work/full/philosophy.jpg">
+           <span class="overlay-img"></span>
+           <span class="overlay-img-thumb font-icon-plus"></span>
+         </a>
+         <!-- Thumb Image and Description -->
+         <img src="img/work/thumbs/philosophy.jpg" alt="Shows the the path a wikipedia page takes to philosophy, built with React.js and Java" data-link="http://philosophy-app-ui.herokuapp.com/" data-link-type='Website'>
+       </li>
+       <!-- End Item Project -->
+
+       <!-- Item Project and Filter Name -->
+       <li class="item-thumbs span3 engineering">
+         <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brake Actuator System Programming" href="img/work/rav4.jpg">
+           <span class="overlay-img"></span>
+           <span class="overlay-img-thumb font-icon-plus"></span>
+         </a>
+         <!-- Thumb Image and Description -->
+         <img src="img/work/rav4.jpg" alt="Upgraded the brake actuator communication system hardware and software to allow the equipment to communicate via bluetooth and fill brake fluid in the new RAV 4. Required PLC programming with PCwin on TOYOPUC controllers. I led this project at Toyota Motor Manufacturing Kentucky." data-link="http://www.slideshare.net/RyanChong14/wi-fi-enabled-soil-moisture-sensor" data-link-type='Slideshow'>
+       </li>
+       <!-- End Item Project -->
+
+       <!-- Item Project and Filter Name -->
+       <li class="item-thumbs span3 programming">
+         <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ruby Chess" href="img/work/full/chess.png">
+           <span class="overlay-img"></span>
+           <span class="overlay-img-thumb font-icon-plus"></span>
+         </a>
+         <!-- Thumb Image and Description -->
+         <img src="img/work/thumbs/chess.png" alt="A command line ruby chess game." data-link="https://github.com/chongr/Ruby-Chess" data-link-type='Github'>
+       </li>
+
+       <!-- Item Project and Filter Name -->
+       <li class="item-thumbs span3 programming">
+         <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Towers of Hanoi" href="img/work/full/hanoi.png">
+           <span class="overlay-img"></span>
+           <span class="overlay-img-thumb font-icon-plus"></span>
+         </a>
+         <!-- Thumb Image and Description -->
+         <img src="img/work/thumbs/hanoi.png" alt="A webapp to solve the towers of hanoi puzzle" data-link="http://chongr.github.io/Tower-of-Hanoi/" data-link-type='Website'>
+       </li>
+       <!-- End Item Project -->
+     </ul>
+   </section>
+
+ </div>
+</div>
+</div>
+<!-- End Portfolio Projects -->
+</div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+  <div class="container">
+    <!-- Title Page -->
+    <div class="row">
+      <div class="span12">
+        <div class="title-page">
+          <h2 class="title">About Me</h2>
+          <h3 class="title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, suscipit veniam? Perferendis ab eos obcaecati reprehenderit, eaque molestias at modi quam, quisquam eveniet numquam totam placeat fugit odio eum dignissimos.</h3>
+        </div>
+      </div>
+    </div>
+    <!-- End Title Page -->
+
+    <!-- People -->
+    <div class="row">
+
+      <!-- Start Profile -->
+      <div class="span4 profile">
+       <div class="image-wrap">
+        <div class="hover-wrap">
+          <span class="overlay-img"></span>
+          <span class="overlay-text-thumb">Education</span>
+        </div>
+        <img src="img/profile/michiganstate.JPG" alt="Education">
+        <img src="img/profile/amsterdam_noord.jpg" alt="Le Wagon Coding Bootcamp">
+      </div>
+      <h3 class="profile-name">Education</h3>
+      <div class="d-flex justify-content-around">
+        <div class="school-icons">
+          <img src="img/icons/msu.png" alt="Michigan State University" width="40" height="40">
+        </div>
+        <div>
+          <p class="profile-education">Michigan State University BS Mechanical Engineering</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div class="school-icons">
+          <img src="img/icons/lewagon.png" alt="Le Wagon Coding Bootcamp" width="40" height="40">
+        </div>
+        <div>
+          <p class="profile-education">Le Wagon Coding Bootcamp - Amsterdam</p>
+        </div>
+      </div>
+
+  </div>
+  <!-- End Profile -->
+
+  <!-- Start Profile -->
+  <div class="span4 profile">
+   <div class="image-wrap">
+    <div class="hover-wrap">
+      <span class="overlay-img"></span>
+      <span class="overlay-text-thumb">Contact</span>
+    </div>
+    <img src="img/profile/steven_lund_profile_pic.jpg" alt="Contact">
+  </div>
+  <h3 class="profile-name">Contact</h3>
+  <div class="social">
+   <ul class="social-icons">
+     <li><a href="https://www.linkedin.com/in/steven-lund-948373a5/"><i class="font-icon-social-linkedin"></i></a></li>
+     <li><a href="mailto:steve.a.lund@gmail.com"><i class="font-icon-social-email"></i></a></li>
+     <li><a href="https://www.github.com/stevenlund"><i class="font-icon-social-github"></i></a></li>
+     <p class="profile-description">Connect With Me</p>
+   </ul>
+ </div>
+</div>
+<!-- End Profile -->
+
+<!-- Start Profile -->
+<div class="span4 profile">
+ <div class="image-wrap">
+  <div class="hover-wrap">
+    <span class="overlay-img"></span>
+    <span class="overlay-text-thumb">Tools</span>
+  </div>
+  <img src="img/profile/kid.jpg" alt="Tools">
+</div>
+<h3 class="profile-name">Tools</h3>
+<div class="d-flex justify-content-between">
+  <img src="img/icons/html5.png" alt="HTML 5">
+  <img src="img/icons/css3.png" alt="CSS 3">
+  <img src="img/icons/javascript.png" alt="JavaScript">
+  <img src="img/icons/python.png" alt="Python">
+  <img src="img/icons/rails.png" alt="Rails">
+  <img src="img/icons/ruby.png" alt="Ruby">
+</div>
+<p class="profile-description">Proficent with Ruby, Rails, JavaScript (ES6), Python, HTML, CSS</p>
+</div>
+<!-- End Profile -->
+
+</div>
+<!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<!-- <div id="contact" class="page">
+  <div class="container"> -->
+    <!-- Title Page -->
+    <!-- <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+            </div>
+        </div>
+      </div> -->
+      <!-- End Title Page -->
+
+      <!-- Contact Form -->
+    <!-- <div class="row">
+    	<div class="span9">
+
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
+
+                <div id="response">
+
+                </div>
+            </form>
+
+        </div>
+
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li><a href="#">hello@brushed.com</a></li>
+                    <li>(916) 375-2525</li>
+                    <li>
+                        Brushed Studio
+                        <br>
+                        5240 Vanish Island. 105
+                        <br>
+                        Unknow
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div> -->
+      <!-- End Contact Form -->
+    </div>
+  </div>
+  <!-- End Contact Section -->
+
+  <!-- Twitter Feed -->
+<!-- <div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+
+                <div id="ticker" class="query">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> -->
+  <!-- End Twitter Feed -->
+
+  <!-- Socialize -->
+<!-- <div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+  </div> -->
+  <!-- End Socialize -->
+
+  <!-- Footer -->
+<!-- <footer>
+	<p class="credits">&copy;2013 Brushed. </p>
+</footer> -->
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="js/waypoints.js"></script> <!-- WayPoints -->
+<script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
 </body>
-
-
-
 </html>
-
-
