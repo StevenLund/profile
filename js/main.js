@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/img/profile/classroom.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/colorado.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/band.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/beach.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''}
+											{image : '/img/slider-images/Ryan_Chong.jpg', title : '<div class="slide-content">Ryan Chong</div><div class="slide-content-sub">Full-Stack Development, Microcontrollers, and Data Science</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/taibei.jpg', title : '<div class="slide-content">Ryan Chong</div><div class="slide-content-sub">Full-Stack Development, Microcontrollers, and Data Science</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/monkey.jpg', title : '<div class="slide-content">Ryan Chong</div><div class="slide-content-sub">Full-Stack Development, Microcontrollers, and Data Science</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/kending.jpg', title : '<div class="slide-content">Ryan Chong</div><div class="slide-content-sub">Full-Stack Development, Microcontrollers, and Data Science</div>', thumb : '', url : ''}
 									],
 
 		// Theme Options

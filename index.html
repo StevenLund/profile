@@ -6,13 +6,14 @@
 <!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 <head>
 
-  <!-- Meta Tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>Steven Lund</title>
+<title>Ryan Chong</title>
 
-<!-- <BASE href="https://stevenlund.github.io/profile">
-<meta name="Steven Lund Portfolio" content="Steven Lund's work and project experience." /> -->
+<BASE href="https://chongr.github.io">
+
+<meta name="description" content="Insert Your Site Description" />
 
 <!-- Mobile Specifics -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,8 +25,6 @@
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 
 <!-- Main Style -->
 <link href="css/main.css" rel="stylesheet">
@@ -86,264 +85,240 @@
 
 <body>
 
-  <!-- This section is for Splash Screen -->
-  <div class="ole">
-    <section id="jSplash">
-     <div id="circle"></div>
-   </section>
- </div>
- <!-- End of Splash Screen -->
-
- <!-- Homepage Slider -->
- <div id="home-slider">
-  <div class="overlay"></div>
-
-  <div class="slider-text">
-   <div id="slidecaption"></div>
- </div>
-
- <div class="control-nav">
-  <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-  <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-  <ul id="slide-list"></ul>
-
-  <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
 </div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>
+
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
 </div>
 <!-- End Homepage Slider -->
 
 <!-- Header -->
 <header>
-  <div class="sticky-nav">
-   <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-   <div id="logo">
-     <a id="goUp" href="#home-slider" title="Steven Lund">Steven Lund</a>
-   </div>
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Ryan Chong">Ryan Chong</a>
+        </div>
 
-   <nav id="menu">
-     <ul id="menu-nav">
-       <li class="current"><a href="#home-slider">Home</a></li>
-       <li><a href="#work">My Projects</a></li>
-       <li><a href="#about">About Me</a></li>
-       <!-- <li><a href="#contact">Contact</a></li> -->
-       <!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
-     </ul>
-   </nav>
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#work">My Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <!-- <li><a href="#contact">Contact</a></li> -->
+				<!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
+            </ul>
+        </nav>
 
- </div>
+    </div>
 </header>
 <!-- End Header -->
 
 <!-- Our Work Section -->
 <div id="work" class="page">
 	<div class="container">
-   <!-- Title Page -->
-   <div class="row">
-    <div class="span12">
-      <div class="title-page">
-        <h2 class="title">My Projects</h2>
-        <h3 class="title-description">Check Out My Projects on <a href="https://github.com/stevenlund/">Github</a>.</h3>
-      </div>
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">My Projects</h2>
+                    <h3 class="title-description">Check Out My Projects on <a href="https://github.com/chongr/">Github</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Type of Work</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".web">Web</a></li>
+                        <li><a href="#filter" data-option-value=".microcontrollers">Microcontrollers</a></li>
+                        <li><a href="#filter" data-option-value=".programming">Programming</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 web">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HouziHanzi" href="img/work/full/houzihanzi.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="img/work/thumbs/houzihanzi.png" alt="A web application to help learn chinese characters. Built with React.js and Ruby on Rails." data-link="http://houzihanzi.herokuapp.com/" data-link-type='Website'>
+                            </li>
+                        	<!-- End Item Project -->
+
+                          <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 web">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="DTC Lab Page" href="img/work/full/dtc_page.png">
+                                    <span class="overlay-img"></span>
+                                      <span class="overlay-img-thumb font-icon-plus"></span>
+                                  </a>
+                                  <!-- Thumb Image and Description -->
+                                  <img src="img/work/thumbs/dtc_page.png" alt="A web application that displays DTCs seen by a user's car and statistics for common DTCs similar to a user's car. Data compiled with pyspark and fetched through a node.js server.  Frontend designed with jQuery." data-link="https://dashboard.automatic.com/labs/dtc_codes/index.html?demo" data-link-type='Website'>
+                              </li>
+                            <!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 web">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wikipedia Philosophy Path" href="img/work/full/philosophy.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="img/work/thumbs/philosophy.jpg" alt="Shows the the path a wikipedia page takes to philosophy, built with React.js and Java" data-link="http://philosophy-app-ui.herokuapp.com/" data-link-type='Website'>
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 microcontrollers">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wi-Fi Soil Moisture Sensor" href="img/work/full/circuit_layout.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="img/work/thumbs/circuit_layout.png" alt="A soil moisture sensor built from two pieces of metal that can send soil moisture values over wi-fi.  Built with the PSOC 5LP and the Electric Imp." data-link="http://www.slideshare.net/RyanChong14/wi-fi-enabled-soil-moisture-sensor" data-link-type='Slideshow'>
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 programming">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ruby Chess" href="img/work/full/chess.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="img/work/thumbs/chess.png" alt="A command line ruby chess game." data-link="https://github.com/chongr/Ruby-Chess" data-link-type='Github'>
+                            </li>
+
+              <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 programming">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Towers of Hanoi" href="img/work/full/hanoi.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="img/work/thumbs/hanoi.png" alt="A webapp to solve the towers of hanoi puzzle" data-link="http://chongr.github.io/Tower-of-Hanoi/" data-link-type='Website'>
+                            </li>
+                        	<!-- End Item Project -->
+                        </ul>
+                    </section>
+
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
     </div>
-  </div>
-  <!-- End Title Page -->
-
-  <!-- Portfolio Projects -->
-  <div class="row">
-   <div class="span3">
-     <!-- Filter -->
-     <nav id="options" class="work-nav">
-      <ul id="filters" class="option-set" data-option-key="filter">
-       <li class="type-work">Type of Work</li>
-       <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-       <li><a href="#filter" data-option-value=".web">Web</a></li>
-       <li><a href="#filter" data-option-value=".engineering">Engineering</a></li>
-       <li><a href="#filter" data-option-value=".programming">Programming</a></li>
-     </ul>
-   </nav>
-   <!-- End Filter -->
- </div>
-
- <div class="span9">
-   <div class="row">
-     <section id="projects">
-       <ul id="thumbs">
-
-         <!-- Item Project and Filter Name -->
-         <li class="item-thumbs span3 web">
-           <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-           <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="GoFlamingo" href="img/work/goflamingo.png">
-             <span class="overlay-img"></span>
-             <span class="overlay-img-thumb font-icon-plus"></span>
-           </a>
-           <!-- Thumb Image and Description -->
-           <img src="img/work/goflamingo.png" alt="A website to share travel experiences with your friends and get inspired for your next journey. Built with Ruby on Rails and JavaScript with Google Maps API integration." data-link="https://www.goflamingo.io" data-link-type='Website'>
-         </li>
-         <!-- End Item Project -->
-
-         <!-- Item Project and Filter Name -->
-         <li class="item-thumbs span3 web">
-          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FromCouch2Coach" href="img/work/from-couch-2-coach.png">
-            <span class="overlay-img"></span>
-            <span class="overlay-img-thumb font-icon-plus"></span>
-          </a>
-          <!-- Thumb Image and Description -->
-          <img src="img/work/from-couch-2-coach.png" alt="A website for connecting users with personal coaches in their area and managing their appointment scheduling. Built with Ruby on Rails." data-link="https://from-couch-2-coach.herokuapp.com/" data-link-type='Website'>
-        </li>
-        <!-- End Item Project -->
-
-        <!-- Item Project and Filter Name -->
-        <li class="item-thumbs span3 web">
-         <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wikipedia Philosophy Path" href="img/work/full/philosophy.jpg">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/philosophy.jpg" alt="Shows the the path a wikipedia page takes to philosophy, built with React.js and Java" data-link="http://philosophy-app-ui.herokuapp.com/" data-link-type='Website'>
-       </li>
-       <!-- End Item Project -->
-
-       <!-- Item Project and Filter Name -->
-       <li class="item-thumbs span3 engineering">
-         <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brake Actuator System Programming" href="img/work/rav4.jpg">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/rav4.jpg" alt="Upgraded the brake actuator communication system hardware and software to allow the equipment to communicate via bluetooth and fill brake fluid in the new RAV 4. Required PLC programming with PCwin on TOYOPUC controllers. I led this project at Toyota Motor Manufacturing Kentucky." data-link="http://www.slideshare.net/RyanChong14/wi-fi-enabled-soil-moisture-sensor" data-link-type='Slideshow'>
-       </li>
-       <!-- End Item Project -->
-
-       <!-- Item Project and Filter Name -->
-       <li class="item-thumbs span3 programming">
-         <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ruby Chess" href="img/work/full/chess.png">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/chess.png" alt="A command line ruby chess game." data-link="https://github.com/chongr/Ruby-Chess" data-link-type='Github'>
-       </li>
-
-       <!-- Item Project and Filter Name -->
-       <li class="item-thumbs span3 programming">
-         <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Towers of Hanoi" href="img/work/full/hanoi.png">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/hanoi.png" alt="A webapp to solve the towers of hanoi puzzle" data-link="http://chongr.github.io/Tower-of-Hanoi/" data-link-type='Website'>
-       </li>
-       <!-- End Item Project -->
-     </ul>
-   </section>
-
- </div>
-</div>
-</div>
-<!-- End Portfolio Projects -->
-</div>
 </div>
 <!-- End Our Work Section -->
 
 <!-- About Section -->
 <div id="about" class="page-alternate">
-  <div class="container">
+<div class="container">
     <!-- Title Page -->
     <div class="row">
-      <div class="span12">
-        <div class="title-page">
-          <h2 class="title">About Me</h2>
-          <h3 class="title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, suscipit veniam? Perferendis ab eos obcaecati reprehenderit, eaque molestias at modi quam, quisquam eveniet numquam totam placeat fugit odio eum dignissimos.</h3>
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About Me</h2>
+                <h3 class="title-description">All About Me</h3>
+            </div>
         </div>
-      </div>
     </div>
     <!-- End Title Page -->
 
     <!-- People -->
     <div class="row">
 
-      <!-- Start Profile -->
-      <div class="span4 profile">
-       <div class="image-wrap">
-        <div class="hover-wrap">
-          <span class="overlay-img"></span>
-          <span class="overlay-text-thumb">Education</span>
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Education</span>
+                </div>
+                <img src="img/profile/michigan.JPG" alt="Education">
+            </div>
+            <h3 class="profile-name">Education</h3>
+            <p class="profile-description">University of Michigan BSE Civil Engineering, Minor in Computer Science</p>
         </div>
-        <img src="img/profile/michiganstate.JPG" alt="Education">
-        <img src="img/profile/amsterdam_noord.jpg" alt="Le Wagon Coding Bootcamp">
-      </div>
-      <h3 class="profile-name">Education</h3>
-      <div class="d-flex justify-content-around">
-        <div class="school-icons">
-          <img src="img/icons/msu.png" alt="Michigan State University" width="40" height="40">
-        </div>
-        <div>
-          <p class="profile-education">Michigan State University BS Mechanical Engineering</p>
-        </div>
-      </div>
-      <div class="d-flex justify-content-between">
-        <div class="school-icons">
-          <img src="img/icons/lewagon.png" alt="Le Wagon Coding Bootcamp" width="40" height="40">
-        </div>
-        <div>
-          <p class="profile-education">Le Wagon Coding Bootcamp - Amsterdam</p>
-        </div>
-      </div>
+        <!-- End Profile -->
 
-  </div>
-  <!-- End Profile -->
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Contact</span>
+                </div>
+                <img src="img/profile/ryan.jpg" alt="Contact">
+            </div>
+            <h3 class="profile-name">Contact</h3>
+            <p class="profile-description">Connect With Me</p>
 
-  <!-- Start Profile -->
-  <div class="span4 profile">
-   <div class="image-wrap">
-    <div class="hover-wrap">
-      <span class="overlay-img"></span>
-      <span class="overlay-text-thumb">Contact</span>
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://www.linkedin.com/in/ryan-chong-024a75a0"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="mailto:ryanchong2@gmail.com"><i class="font-icon-social-email"></i></a></li>
+                    <li><a href="https://www.github.com/chongr"><i class="font-icon-social-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Tools</span>
+                </div>
+                <img src="img/profile/tools.png" alt="Tools">
+            </div>
+            <h3 class="profile-name">Tools</h3>
+            <p class="profile-description">Proficent with Python, Ruby, React.js, Rails, and Django</p>
+        </div>
+        <!-- End Profile -->
+
     </div>
-    <img src="img/profile/steven_lund_profile_pic.jpg" alt="Contact">
-  </div>
-  <h3 class="profile-name">Contact</h3>
-  <div class="social">
-   <ul class="social-icons">
-     <li><a href="https://www.linkedin.com/in/steven-lund-948373a5/"><i class="font-icon-social-linkedin"></i></a></li>
-     <li><a href="mailto:steve.a.lund@gmail.com"><i class="font-icon-social-email"></i></a></li>
-     <li><a href="https://www.github.com/stevenlund"><i class="font-icon-social-github"></i></a></li>
-     <p class="profile-description">Connect With Me</p>
-   </ul>
- </div>
-</div>
-<!-- End Profile -->
-
-<!-- Start Profile -->
-<div class="span4 profile">
- <div class="image-wrap">
-  <div class="hover-wrap">
-    <span class="overlay-img"></span>
-    <span class="overlay-text-thumb">Tools</span>
-  </div>
-  <img src="img/profile/kid.jpg" alt="Tools">
-</div>
-<h3 class="profile-name">Tools</h3>
-<div class="d-flex justify-content-between">
-  <img src="img/icons/html5.png" alt="HTML 5">
-  <img src="img/icons/css3.png" alt="CSS 3">
-  <img src="img/icons/javascript.png" alt="JavaScript">
-  <img src="img/icons/python.png" alt="Python">
-  <img src="img/icons/rails.png" alt="Rails">
-  <img src="img/icons/ruby.png" alt="Ruby">
-</div>
-<p class="profile-description">Proficent with Ruby, Rails, JavaScript (ES6), Python, HTML, CSS</p>
-</div>
-<!-- End Profile -->
-
-</div>
-<!-- End People -->
+    <!-- End People -->
 </div>
 </div>
 <!-- End About Section -->
@@ -351,7 +326,7 @@
 
 <!-- Contact Section -->
 <!-- <div id="contact" class="page">
-  <div class="container"> -->
+<div class="container"> -->
     <!-- Title Page -->
     <!-- <div class="row">
         <div class="span12">
@@ -360,10 +335,10 @@
                 <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
             </div>
         </div>
-      </div> -->
-      <!-- End Title Page -->
+    </div> -->
+    <!-- End Title Page -->
 
-      <!-- Contact Form -->
+    <!-- Contact Form -->
     <!-- <div class="row">
     	<div class="span9">
 
@@ -404,13 +379,13 @@
                 </ul>
             </div>
         </div>
-      </div> -->
-      <!-- End Contact Form -->
-    </div>
-  </div>
-  <!-- End Contact Section -->
+    </div> -->
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
 
-  <!-- Twitter Feed -->
+<!-- Twitter Feed -->
 <!-- <div id="twitter-feed" class="page-alternate">
 	<div class="container">
     	<div class="row">
@@ -424,10 +399,10 @@
             </div>
         </div>
     </div>
-  </div> -->
-  <!-- End Twitter Feed -->
+</div> -->
+<!-- End Twitter Feed -->
 
-  <!-- Socialize -->
+<!-- Socialize -->
 <!-- <div id="social-area" class="page">
 	<div class="container">
     	<div class="row">
@@ -448,10 +423,10 @@
             </div>
         </div>
     </div>
-  </div> -->
-  <!-- End Socialize -->
+</div> -->
+<!-- End Socialize -->
 
-  <!-- Footer -->
+<!-- Footer -->
 <!-- <footer>
 	<p class="credits">&copy;2013 Brushed. </p>
 </footer> -->
