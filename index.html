@@ -6,13 +6,14 @@
 <!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 <head>
 
-  <!-- Meta Tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>Steven Lund</title>
+<title>Steven Lund</title>
 
-<!-- <BASE href="https://stevenlund.github.io/profile">
-<meta name="Steven Lund Portfolio" content="Steven Lund's work and project experience." /> -->
+<!-- <BASE href="https://chongr.github.io"> -->
+
+<meta name="description" content="Insert Your Site Description" />
 
 <!-- Mobile Specifics -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,8 +25,8 @@
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Steven Lund bootstrap addition line 29 -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 
 <!-- Main Style -->
 <link href="css/main.css" rel="stylesheet">
@@ -86,58 +87,58 @@
 
 <body>
 
-  <!-- This section is for Splash Screen -->
-  <div class="ole">
-    <section id="jSplash">
-     <div id="circle"></div>
-   </section>
- </div>
- <!-- End of Splash Screen -->
-
- <!-- Homepage Slider -->
- <div id="home-slider">
-  <div class="overlay"></div>
-
-  <div class="slider-text">
-   <div id="slidecaption"></div>
- </div>
-
- <div class="control-nav">
-  <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-  <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-  <ul id="slide-list"></ul>
-
-  <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+  <div id="circle"></div>
+</section>
 </div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+      <div id="slidecaption"></div>
+    </div>
+
+  <div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
 </div>
 <!-- End Homepage Slider -->
 
 <!-- Header -->
 <header>
-  <div class="sticky-nav">
-   <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+    <div class="sticky-nav">
+      <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-   <div id="logo">
-     <a id="goUp" href="#home-slider" title="Steven Lund">Steven Lund</a>
-   </div>
+        <div id="logo">
+          <a id="goUp" href="#home-slider" title="Steven Lund">Steven Lund</a>
+        </div>
 
-   <nav id="menu">
-     <ul id="menu-nav">
-       <li class="current"><a href="#home-slider">Home</a></li>
-       <li><a href="#work">My Projects</a></li>
-       <li><a href="#about">About Me</a></li>
-       <!-- <li><a href="#contact">Contact</a></li> -->
-       <!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
-     </ul>
-   </nav>
+        <nav id="menu">
+          <ul id="menu-nav">
+              <li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#work">My Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <!-- <li><a href="#contact">Contact</a></li> -->
+        <!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
+            </ul>
+        </nav>
 
- </div>
+    </div>
 </header>
 <!-- End Header -->
 
 <!-- Our Work Section -->
 <div id="work" class="page">
-	<div class="container">
+  <div class="container">
    <!-- Title Page -->
    <div class="row">
     <div class="span12">
@@ -151,11 +152,11 @@
 
   <!-- Portfolio Projects -->
   <div class="row">
-   <div class="span3">
+   <div class="span2">
      <!-- Filter -->
      <nav id="options" class="work-nav">
       <ul id="filters" class="option-set" data-option-key="filter">
-       <li class="type-work">Type of Work</li>
+       <li class="type-work">Work Type</li>
        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
        <li><a href="#filter" data-option-value=".web">Web</a></li>
        <li><a href="#filter" data-option-value=".engineering">Engineering</a></li>
@@ -165,8 +166,8 @@
    <!-- End Filter -->
  </div>
 
- <div class="span9">
-   <div class="row">
+ <div class="span8">
+   <div>
      <section id="projects">
        <ul id="thumbs">
 
@@ -194,18 +195,6 @@
         </li>
         <!-- End Item Project -->
 
-        <!-- Item Project and Filter Name -->
-        <li class="item-thumbs span3 web">
-         <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wikipedia Philosophy Path" href="img/work/full/philosophy.jpg">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/philosophy.jpg" alt="Shows the the path a wikipedia page takes to philosophy, built with React.js and Java" data-link="http://philosophy-app-ui.herokuapp.com/" data-link-type='Website'>
-       </li>
-       <!-- End Item Project -->
-
        <!-- Item Project and Filter Name -->
        <li class="item-thumbs span3 engineering">
          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -221,25 +210,15 @@
        <!-- Item Project and Filter Name -->
        <li class="item-thumbs span3 programming">
          <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ruby Chess" href="img/work/full/chess.png">
+         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Kentucky Derby Racing Game" href="img/work/kentuckyderby.png">
            <span class="overlay-img"></span>
            <span class="overlay-img-thumb font-icon-plus"></span>
          </a>
          <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/chess.png" alt="A command line ruby chess game." data-link="https://github.com/chongr/Ruby-Chess" data-link-type='Github'>
+         <img src="img/work/kentuckyderby.png" alt="A two player racing game that returns the time in seconds it takes the winner to cross the finish line. Written with AJAX / Ruby." data-link="https://github.com/stevenlund/kentuckyderby" data-link-type='Github'>
        </li>
 
-       <!-- Item Project and Filter Name -->
-       <li class="item-thumbs span3 programming">
-         <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-         <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Towers of Hanoi" href="img/work/full/hanoi.png">
-           <span class="overlay-img"></span>
-           <span class="overlay-img-thumb font-icon-plus"></span>
-         </a>
-         <!-- Thumb Image and Description -->
-         <img src="img/work/thumbs/hanoi.png" alt="A webapp to solve the towers of hanoi puzzle" data-link="http://chongr.github.io/Tower-of-Hanoi/" data-link-type='Website'>
-       </li>
-       <!-- End Item Project -->
+
      </ul>
    </section>
 
@@ -269,7 +248,7 @@
     <div class="row">
 
       <!-- Start Profile -->
-      <div class="span4 profile">
+      <div class="col-12 col-lg-4 profile">
        <div class="image-wrap">
         <div class="hover-wrap">
           <span class="overlay-img"></span>
@@ -300,7 +279,7 @@
   <!-- End Profile -->
 
   <!-- Start Profile -->
-  <div class="span4 profile">
+  <div class="col-12 col-lg-4 profile">
    <div class="image-wrap">
     <div class="hover-wrap">
       <span class="overlay-img"></span>
@@ -321,7 +300,7 @@
 <!-- End Profile -->
 
 <!-- Start Profile -->
-<div class="span4 profile">
+<div class="col-12 col-lg-4 profile">
  <div class="image-wrap">
   <div class="hover-wrap">
     <span class="overlay-img"></span>
@@ -365,20 +344,20 @@
 
       <!-- Contact Form -->
     <!-- <div class="row">
-    	<div class="span9">
+      <div class="span9">
 
-        	<form id="contact-form" class="contact-form" action="#">
-            	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+          <form id="contact-form" class="contact-form" action="#">
+              <p class="contact-name">
+                <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
                 </p>
                 <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                  <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
                 </p>
                 <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                  <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
                 </p>
                 <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                  <a id="contact-submit" class="submit" href="#">Send Your Email</a>
                 </p>
 
                 <div id="response">
@@ -389,8 +368,8 @@
         </div>
 
         <div class="span3">
-        	<div class="contact-details">
-        		<h3>Contact Details</h3>
+          <div class="contact-details">
+            <h3>Contact Details</h3>
                 <ul>
                     <li><a href="#">hello@brushed.com</a></li>
                     <li>(916) 375-2525</li>
@@ -412,8 +391,8 @@
 
   <!-- Twitter Feed -->
 <!-- <div id="twitter-feed" class="page-alternate">
-	<div class="container">
-    	<div class="row">
+  <div class="container">
+      <div class="row">
             <div class="span12">
                 <div class="follow">
                     <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
@@ -429,8 +408,8 @@
 
   <!-- Socialize -->
 <!-- <div id="social-area" class="page">
-	<div class="container">
-    	<div class="row">
+  <div class="container">
+      <div class="row">
             <div class="span12">
                 <nav id="social">
                     <ul>
@@ -453,13 +432,13 @@
 
   <!-- Footer -->
 <!-- <footer>
-	<p class="credits">&copy;2013 Brushed. </p>
+  <p class="credits">&copy;2013 Brushed. </p>
 </footer> -->
 <!-- End Footer -->
 
 <!-- Back To Top -->
 <a id="back-to-top" href="#">
-	<i class="font-icon-arrow-simple-up"></i>
+  <i class="font-icon-arrow-simple-up"></i>
 </a>
 <!-- End Back to Top -->
 
