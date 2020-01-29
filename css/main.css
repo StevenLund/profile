@@ -34,7 +34,7 @@ body{
 
 
 a{
-	color:green;
+	color:#ff6602;
 	text-decoration: none;
 	cursor: pointer;
 
@@ -104,7 +104,7 @@ hr {
 }
 
 .color-text {
-    color: green;
+    color: #ff6602;
 }
 
 .through{
@@ -334,7 +334,7 @@ h3.spec {
 }
 
 #home-slider .slide-content-sub {
-	font-size: 25px;
+	font-size: 22px;
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 25px;
@@ -380,7 +380,7 @@ h3.spec {
 
 #home-slider #nextslide:hover,
 #home-slider #prevslide:hover {
-	background-color:green;
+	background-color:#ff6602;
 }
 
 #home-slider #nextslide i,
@@ -438,7 +438,7 @@ h3.spec {
 
 #home-slider ul#slide-list li.current-slide a,
 #home-slider ul#slide-list li.current-slide a:hover {
-	background-color:green;
+	background-color:#ff6602;
 }
 
 #home-slider #nextsection {
@@ -456,7 +456,7 @@ h3.spec {
 }
 
 #home-slider #nextsection:hover {
-	background-color:green;
+	background-color:#ff6602;
 }
 
 #home-slider #nextsection i {
@@ -524,7 +524,7 @@ header #logo a {
 }
 
 header #logo a:hover {
-	color: green;
+	color: #ff6602;
 	opacity: 0.65;
 	filter: alpha(opacity=65);
 }
@@ -560,7 +560,7 @@ nav#menu #menu-nav li a {
 
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
-	color: green;
+	color: #ff6602;
 }
 
 
@@ -699,7 +699,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a.selected {
-	color: green;
+	color: #ff6602;
 }
 
 #thumbs {
@@ -759,7 +759,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: green;
+	background: #ff6602;
 
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -793,6 +793,7 @@ nav#menu #menu-nav li a:hover {
 
 .profile-education {
   margin-left: 30px;
+  margin-bottom: 5px;
 }
 
 .image-wrap {
@@ -843,7 +844,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: green;
+	background: #ff6602;
 
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -905,6 +906,10 @@ nav#menu #menu-nav li a:hover {
 .social-icons li a:hover{
 	opacity: 1;
 	filter: alpha(opacity=100);
+}
+
+#about_me {
+  height: 240px;
 }
 
 /* ==================================================
@@ -996,7 +1001,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit:hover {
-    background: green;
+    background: #ff6602;
     color: #FFFFFF;
 }
 
@@ -1117,7 +1122,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a,
 #social ul li.active a {
-	background-color: green;
+	background-color: #ff6602;
 
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1182,7 +1187,7 @@ footer .credits {
 }
 
 #back-to-top:hover {
-	background-color:green;
+	background-color:#ff6602;
 }
 
 #back-to-top i {
@@ -1258,7 +1263,7 @@ footer .credits {
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: green;
+	background: #ff6602;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
