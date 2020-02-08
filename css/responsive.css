@@ -57,7 +57,7 @@ header .sticky-nav.stuck #mobile-nav {
 }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
   #home-slider .slide-content-sub {
     font-size: 28px;
     color: #FFFFFF;
