@@ -337,7 +337,9 @@ h3.spec {
 	font-size: 22px;
   color: #FFFFFF;
   letter-spacing: 1px;
-  line-height: 25px;
+  line-height: 75px;
+  word-wrap: break-word;
+  display: inline-block;
 }
 
 #home-slider .control-nav {
@@ -659,7 +661,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .title-page .title-description {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 200;
 	margin: 0;
 }
