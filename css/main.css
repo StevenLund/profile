@@ -327,14 +327,14 @@ h3.spec {
 }
 
 #home-slider .slide-content {
-	font-size: 4vw;
+	font-size: 56px;
 	color: #FFFFFF;
 /*	letter-spacing: -3px;*/
 	text-transform: uppercase;
 }
 
 #home-slider .slide-content-sub {
-	font-size: 2vw;
+	font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 75px;
