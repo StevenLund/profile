@@ -410,7 +410,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '/js/placeholder.js',
+		nope: 'profile/js/placeholder.js',
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
