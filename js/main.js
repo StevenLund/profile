@@ -77,12 +77,11 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/img/slider-images/Ryan_Chong.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
+											{image : '/img/slider-images/classroom.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/colorado.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/band.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''},
 											{image : '/img/slider-images/beach.jpg', title : '<div class="slide-content">Steven Lund</div><div class="slide-content-sub">Full-Stack Development, Mechanical Engineering</div>', thumb : '', url : ''}
 									],
-
 
 
 		// Theme Options
@@ -458,3 +457,6 @@ $(window).resize(function(){
 });
 
 });
+
+// Lund: Attempt to fix photo loading issue
+// Response.ContentType = "image/jpeg";
